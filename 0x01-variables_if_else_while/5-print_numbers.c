@@ -10,14 +10,12 @@
 
 int main(void)
 {
-	char letter;
+	int n;
 
-	for (letter = 'z'; letter >= 'a'; letter--)
-		putchar(letter);
-
-	putchar(letter);
-
-	putchar('\n');
-
+	for (n = 0; n < 10; n++)
+	{
+		printf("%d", n);
+	}
+	printf("\n");
 	return (0);
 }
